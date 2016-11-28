@@ -1,0 +1,9 @@
+<settings>
+    <servers>
+        <server>
+            <id>bintray</id>
+            <username>aibar</username>
+            <password>${bintray}</password>
+        </server>
+    </servers>
+</settings>

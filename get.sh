@@ -5,7 +5,7 @@ Version=6.5.1
 #
 # Get
 #
-DownloadUrl="https://zeroturnaround.com/software/jrebel/download/thank-you/?file=jrebel-6.5.1-nosetup.zip"
+DownloadUrl="https://zeroturnaround.com/software/jrebel/download/thank-you/?file=jrebel-${Version}-nosetup.zip"
 ThankfulPage=$(wget -qO- ${DownloadUrl})
 Regex='<a.*href="//(.*)".*>direct link</a>'
 
@@ -17,13 +17,10 @@ else
     exit 1
 fi
 
-if [ ! -f target/jrebel.zip ]
-then
-    wget ${ActualDownloadUrl} -O target/jrebel.zip
-fi
+wget ${ActualDownloadUrl} -O target/jrebel.zip
 
 #
-# Build
+# Package libs as ZIP
 #
 cd target
 
@@ -31,9 +28,4 @@ unzip -o jrebel.zip
 
 rm jrebel-${Version}.jar
 
-zip -j jrebel-${Version}.jar jrebel/lib/*
-
-#
-# Deploy
-#
-mvn deploy -f ..
+zip -j jrebel-${Version}.zip jrebel/lib/*

@@ -4,16 +4,16 @@
     <groupId>walkingdevs.jrebel</groupId>
     <artifactId>jrebel</artifactId>
     <version>6.5.1</version>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <packaging>zip</packaging>
 
     <distributionManagement>
         <repository>
             <id>bintray</id>
-            <name>walkingdevs</name>
             <url>https://api.bintray.com/maven/walkingdevs/mvn/jrebel/;publish=1</url>
         </repository>
     </distributionManagement>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 </project>

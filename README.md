@@ -1,9 +1,11 @@
-## Jrebel libs packaged as jar and deployed to the Bintray
+## Jrebel libs packaged as ZIP and deployed to the Bintray
+
     <dependencies>
         <dependency>
-            <groupId>walkingdevs.jrebel</groupId>
+            <groupId>jrebel</groupId>
             <artifactId>jrebel</artifactId>
             <version>6.5.1</version>
+            <type>zip</type>
         </dependency>
     </dependencies>
 

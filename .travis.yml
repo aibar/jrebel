@@ -3,7 +3,7 @@ jdk:
   - oraclejdk8
 
 script:
-  - /bin/sh get.sh
+  - /bin/bash get.sh
 
 deploy:
   provider: script

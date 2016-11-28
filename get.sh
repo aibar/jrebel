@@ -28,4 +28,4 @@ unzip -o jrebel.zip
 
 rm jrebel-${Version}.jar
 
-zip -j jrebel-${Version}.zip jrebel/lib/*
+zip -j jrebel-${Version}.jar jrebel/lib/*

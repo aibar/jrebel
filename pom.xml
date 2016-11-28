@@ -1,10 +1,9 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>walkingdevs.jrebel</groupId>
+    <groupId>jrebel</groupId>
     <artifactId>jrebel</artifactId>
     <version>6.5.1</version>
-    <packaging>zip</packaging>
 
     <distributionManagement>
         <repository>

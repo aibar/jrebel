@@ -5,7 +5,6 @@
             <groupId>jrebel</groupId>
             <artifactId>jrebel</artifactId>
             <version>6.5.1</version>
-            <type>zip</type>
         </dependency>
     </dependencies>
 

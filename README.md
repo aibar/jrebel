@@ -7,7 +7,7 @@
         <dependency>
             <groupId>jrebel</groupId>
             <artifactId>jrebel</artifactId>
-            <version>6.5.2</version>
+            <version>7.0.0</version>
         </dependency>
     </dependencies>
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Version=6.5.2
+Version=7.0.0
 
 #
 # Get
@@ -28,4 +28,5 @@ unzip -o jrebel.zip
 
 rm jrebel-${Version}.jar
 
+mv jrebel/jrebel.jar jrebel/lib
 zip -j jrebel-${Version}.jar jrebel/lib/*

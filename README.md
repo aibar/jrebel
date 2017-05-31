@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/walkingdevs/jrebel.svg?branch=master)](https://travis-ci.org/walkingdevs/jrebel)
-[![Download](https://api.bintray.com/packages/walkingdevs/mvn/jrebel/images/download.svg) ](https://bintray.com/walkingdevs/mvn/jrebel/_latestVersion)
+[![Download](https://api.bintray.com/packages/walkingdevs/mvn/jrebel/images/download.svg)](https://bintray.com/walkingdevs/mvn/jrebel/_latestVersion)
 
 ## Jrebel libs packaged as ZIP and deployed to the Bintray
 
@@ -7,7 +7,7 @@
         <dependency>
             <groupId>jrebel</groupId>
             <artifactId>jrebel</artifactId>
-            <version>7.0.0</version>
+            <version>7.0.9</version>
         </dependency>
     </dependencies>
 

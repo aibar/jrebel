@@ -11,8 +11,6 @@ script:
 
 deploy:
   provider: script
-  script:
-    - /bin/bash get.sh
-    - mvn deploy -s settings.xml -B -Dbintray=$bintray
+  script: mvn deploy -s settings.xml -B -Dbintray=$bintray
   on:
     tags: true

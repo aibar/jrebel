@@ -30,3 +30,5 @@ unzip -o jrebel.zip
 
 mv jrebel/jrebel.jar jrebel/lib
 zip -j jrebel-${Version}.jar jrebel/lib/*
+
+unzip -l jrebel-${Version}.jar

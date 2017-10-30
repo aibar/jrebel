@@ -28,7 +28,5 @@ cd target
 
 unzip -o jrebel.zip
 
-rm jrebel-${Version}.jar
-
 mv jrebel/jrebel.jar jrebel/lib
 zip -j jrebel-${Version}.jar jrebel/lib/*

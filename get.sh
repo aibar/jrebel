@@ -17,6 +17,7 @@ else
     exit 1
 fi
 
+rm -rf target
 wget ${ActualDownloadUrl} -O target/jrebel.zip
 
 #

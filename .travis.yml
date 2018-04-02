@@ -7,7 +7,7 @@ cache:
     - $HOME/.m2
 
 script:
-  - /bin/bash get.sh
+  - mvn package -B
 
 deploy:
   provider: script

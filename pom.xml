@@ -32,4 +32,11 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>bintray</id>
+            <url>http://dl.bintray.com/walkingdevs/mvn</url>
+        </repository>
+    </repositories>
 </project>

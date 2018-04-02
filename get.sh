@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Version=2018.1.0
+Version=7.1.7
 
 #
 # Get
